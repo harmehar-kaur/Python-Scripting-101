@@ -1,0 +1,63 @@
+May 21 11:23:45 kali sshd[1213]: Failed password for invalid user admin from 192.168.1.10 port 55432 ssh2
+May 21 11:24:02 kali sshd[1214]: Failed password for root from 192.168.1.10 port 55433 ssh2
+May 21 11:25:12 kali sshd[1215]: Failed password for invalid user test from 192.168.1.11 port 55434 ssh2
+May 21 11:26:01 kali sshd[1216]: Accepted password for alice from 192.168.1.100 port 55435 ssh2
+May 21 11:26:13 kali sshd[1217]: Failed password for invalid user admin from 192.168.1.10 port 55436 ssh2
+May 21 11:26:50 kali sshd[1218]: Failed password for root from 192.168.1.12 port 55437 ssh2
+May 21 11:27:23 kali sshd[1219]: Accepted publickey for bob from 192.168.1.101 port 55438 ssh2
+May 21 11:28:12 kali sshd[1220]: Failed password for invalid user support from 192.168.1.13 port 55439 ssh2
+May 21 11:29:01 kali sshd[1221]: Failed password for root from 192.168.1.13 port 55440 ssh2
+May 21 11:30:10 kali sshd[1222]: Accepted password for charlie from 192.168.1.102 port 55441 ssh2
+May 21 11:31:12 kali sshd[1223]: Failed password for root from 192.168.1.10 port 55442 ssh2
+May 21 11:32:13 kali sshd[1224]: Failed password for invalid user admin from 192.168.1.10 port 55443 ssh2
+May 21 11:32:44 kali sshd[1225]: Failed password for root from 192.168.1.14 port 55444 ssh2
+May 21 11:33:27 kali sshd[1226]: Accepted publickey for dave from 192.168.1.103 port 55445 ssh2
+May 21 11:34:59 kali sshd[1227]: Failed password for invalid user guest from 192.168.1.15 port 55446 ssh2
+May 21 11:35:43 kali sshd[1228]: Failed password for root from 192.168.1.15 port 55447 ssh2
+May 21 11:36:11 kali sshd[1229]: Accepted password for alice from 192.168.1.100 port 55448 ssh2
+May 21 11:36:44 kali sshd[1230]: Failed password for root from 192.168.1.13 port 55449 ssh2
+May 21 11:37:22 kali sshd[1231]: Failed password for invalid user test from 192.168.1.10 port 55450 ssh2
+May 21 11:38:35 kali sshd[1232]: Accepted publickey for bob from 192.168.1.101 port 55451 ssh2
+May 21 11:39:45 kali sshd[1233]: Failed password for root from 192.168.1.12 port 55452 ssh2
+May 21 11:40:12 kali sshd[1234]: Failed password for invalid user pi from 192.168.1.11 port 55453 ssh2
+May 21 11:41:20 kali sshd[1235]: Failed password for root from 192.168.1.14 port 55454 ssh2
+May 21 11:42:31 kali sshd[1236]: Accepted password for charlie from 192.168.1.102 port 55455 ssh2
+May 21 11:43:05 kali sshd[1237]: Failed password for invalid user testuser from 192.168.1.13 port 55456 ssh2
+May 21 11:43:30 kali sshd[1238]: Failed password for root from 192.168.1.13 port 55457 ssh2
+May 21 11:44:12 kali sshd[1239]: Accepted publickey for dave from 192.168.1.103 port 55458 ssh2
+May 21 11:45:50 kali sshd[1240]: Failed password for root from 192.168.1.15 port 55459 ssh2
+May 21 11:46:13 kali sshd[1241]: Accepted password for alice from 192.168.1.100 port 55460 ssh2
+May 22 07:11:03 kali sshd[2001]: Accepted password for alice from 192.168.1.100 port 60001 ssh2
+May 22 07:11:05 kali sshd[2001]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+May 22 08:25:12 kali systemd[1]: Starting Daily apt upgrade and clean activities...
+May 22 08:25:13 kali systemd[1]: Finished Daily apt upgrade and clean activities.
+May 22 09:30:45 kali ftpd[2012]: FTP login successful: user=bob ip=192.168.1.101
+May 22 09:31:10 kali ftpd[2012]: File transferred: /home/bob/reports/report_may.pdf
+May 22 10:12:22 kali sshd[2002]: Failed password for invalid user admin from 203.0.113.11 port 60002 ssh2
+May 22 10:13:09 kali sshd[2003]: Failed password for root from 203.0.113.11 port 60003 ssh2
+May 22 10:13:34 kali sshd[2004]: Failed password for root from 203.0.113.11 port 60004 ssh2
+May 22 11:00:10 kali kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:0c:29:... SRC=203.0.113.11 DST=192.168.1.5 ...
+May 22 12:01:44 kali sshd[2005]: Accepted publickey for dave from 192.168.1.103 port 60005 ssh2
+May 22 12:01:44 kali sshd[2005]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+May 22 13:15:23 kali CRON[2015]: (root) CMD (/usr/lib/apt/apt.systemd.daily)
+May 22 14:05:56 kali sshd[2006]: Failed password for root from 198.51.100.55 port 60006 ssh2
+May 22 14:10:32 kali ftpd[2016]: FTP login failed: user=oracle ip=198.51.100.55
+May 22 14:15:00 kali sshd[2007]: Failed password for invalid user user1 from 198.51.100.55 port 60007 ssh2
+May 22 15:32:45 kali audit[2022]: USER_ACCT pid=2022 uid=1000 auid=1000 msg='op=PAM:accounting acct="alice"'
+May 22 17:45:01 kali sshd[2001]: pam_unix(sshd:session): session closed for user alice
+May 22 18:00:22 kali sshd[2005]: pam_unix(sshd:session): session closed for user dave
+May 22 18:05:33 kali ftpd[2012]: FTP logout: user=bob ip=192.168.1.101
+May 22 18:35:11 kali sshd[2008]: Failed password for root from 203.0.113.77 port 60008 ssh2
+May 22 19:00:01 kali sshd[2009]: Accepted password for charlie from 192.168.1.102 port 60009 ssh2
+May 22 19:00:01 kali sshd[2009]: pam_unix(sshd:session): session opened for user charlie by (uid=0)
+May 22 21:15:20 kali sshd[2009]: pam_unix(sshd:session): session closed for user charlie
+May 23 09:03:12 kali sshd[2010]: Accepted password for alice from 192.168.1.100 port 60010 ssh2
+May 23 09:03:12 kali sshd[2010]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+May 23 16:55:07 kali sshd[2010]: pam_unix(sshd:session): session closed for user alice
+May 24 08:00:00 kali sshd[2011]: Accepted publickey for bob from 192.168.1.101 port 60011 ssh2
+May 24 08:00:01 kali sshd[2011]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+May 24 08:04:31 kali kernel: audit: type=1400 audit(1716456271.421:74): apparmor="DENIED" operation="open" profile="/usr/sbin/cups-browsed" name="/etc/shadow" pid=3052 comm="cups-browsed"
+May 24 08:15:34 kali su[3055]: (to root) bob on pts/1
+May 24 08:15:34 kali su[3055]: pam_unix(su:session): session opened for user root by bob(uid=1001)
+May 24 08:25:10 kali su[3055]: pam_unix(su:session): session closed for user root
+May 24 11:12:00 kali sshd[2011]: pam_unix(sshd:session): session closed for user bob
